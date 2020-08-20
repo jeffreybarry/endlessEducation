@@ -44,3 +44,7 @@ p {
 .courseRow {
   margin-top: 2rem;
 }
+
+footer {
+  min-height: 10rem;
+}
