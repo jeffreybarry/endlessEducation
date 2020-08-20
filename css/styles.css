@@ -40,3 +40,7 @@ p {
 .card-text {
   font-size: 0.8rem;
 }
+
+.courseRow {
+  margin-top: 2rem;
+}
