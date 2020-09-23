@@ -21,8 +21,16 @@ h1 {
 #tagline {
     color: #2F4550;
     margin-top: -1rem;
+    font-size: 1.8rem;
 }
-/* 1. change underlining to none */
+
+#essentialQuestion {
+  font-size: 1.4rem;
+  color: red;
+  
+}
+
+
 a {
   color: #00a896;
   text-decoration: none;
@@ -35,7 +43,7 @@ a:hover {
 
 p {
 
-  font-size: 1.8rem;
+
 
 }
 
