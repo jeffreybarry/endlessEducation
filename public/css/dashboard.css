@@ -78,12 +78,27 @@ body {
     border-width: 0;
     border-radius: 0;
 }
-.form-control-dark {
-    color: #fff;
-    background-color: rgba(255, 255, 255, .1);
-    border-color: rgba(255, 255, 255, .1);
+
+a.navbar-brand, a.nav-link  {
+  color: #f4f4f9 !important;
 }
-.form-control-dark:focus {
-    border-color: transparent;
-    box-shadow: 0 0 0 3px rgba(255, 255, 255, .25);
+
+.bg-light {
+  background-color: #2f4550 !important;
 }
+
+
+/***************************************************************
+ * Lesson content
+ ***************************************************************/
+
+ .lesson-title {
+   font-size: 2rem;
+   margin-top: 3rem;
+ }
+.lesson-notes-title {
+  margin-top: 3rem;
+
+}
+
+/* pt-3 pb-2 mb-3 */
