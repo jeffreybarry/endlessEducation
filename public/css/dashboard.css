@@ -31,9 +31,19 @@ body {
     height: calc(100vh - 48px);
     padding-top: .5rem;
     overflow-x: hidden;
-    overflow-y: auto;
     /* Scrollable contents if viewport is shorter than content. */
+   overflow-y: auto;
+
+
+/* hide sidebar scrollbar but keep contents scrollable */
+  -ms-overflow-style: none;  /* IE and Edge */
+   scrollbar-width: none;  /* Firefox */
 }
+
+.sidebar-sticky::-webkit-scrollbar {
+  display: none;
+}
+
 @supports ((position: -webkit-sticky) or (position: sticky)) {
     .sidebar-sticky {
         position: -webkit-sticky;
@@ -51,6 +61,10 @@ body {
 .sidebar .nav-link.active {
     color: #007bff;
 }
+.sidebar .nav-link.active-lesson {
+  background-color: #9FA092;
+}
+
 .sidebar .nav-link:hover .feather,
 .sidebar .nav-link.active .feather {
     color: inherit;
